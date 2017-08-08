@@ -9,7 +9,7 @@
 #import "WBSettingViewController.h"
 #import "WeChatRedEnvelop.h"
 #import "WBRedEnvelopConfig.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 #import "WBMultiSelectGroupsViewController.h"
 
 @interface WBSettingViewController () <MultiSelectGroupsViewControllerDelegate>

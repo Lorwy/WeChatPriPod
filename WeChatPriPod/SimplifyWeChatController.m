@@ -7,7 +7,7 @@
 //
 
 #import "SimplifyWeChatController.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 #import "WBMultiSelectGroupsViewController.h"
 #import "WeChatPriConfigCenter.h"
 #import "WeChatRedEnvelop.h"

@@ -10,7 +10,7 @@
 #import "WeChatRedEnvelopParam.h"
 #import "WBRedEnvelopConfig.h"
 #import "WeChatRedEnvelop.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 @interface WBReceiveRedEnvelopOperation ()
 
