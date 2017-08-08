@@ -11,8 +11,6 @@
 		0430D46B1F3986C200D44793 /* WeChatPriPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0430D46A1F3986C200D44793 /* WeChatPriPod.podspec */; };
 		0430D46E1F3986C200D44793 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0430D46D1F3986C200D44793 /* CaptainHook.h */; };
 		0430D4701F3986C200D44793 /* WeChatPriPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430D46F1F3986C200D44793 /* WeChatPriPod.m */; };
-		0430D4771F3986C200D44793 /* WeChatPriPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0430D4651F3986C200D44793 /* WeChatPriPod.framework */; };
-		0430D47C1F3986C200D44793 /* WeChatPriPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430D47B1F3986C200D44793 /* WeChatPriPodTests.m */; };
 		0430D4A01F39870E00D44793 /* WBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0430D4871F39870E00D44793 /* WBBaseViewController.h */; };
 		0430D4A11F39870E00D44793 /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430D4881F39870E00D44793 /* WBBaseViewController.m */; };
 		0430D4A21F39870E00D44793 /* WBMultiSelectGroupsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0430D4891F39870E00D44793 /* WBMultiSelectGroupsViewController.h */; };
@@ -40,16 +38,6 @@
 		0430D4B81F39870E00D44793 /* WeChatPriUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430D49F1F39870E00D44793 /* WeChatPriUtil.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0430D4781F3986C200D44793 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0430D45C1F3986C200D44793 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0430D4641F3986C200D44793;
-			remoteInfo = WeChatPriPod;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0430D4651F3986C200D44793 /* WeChatPriPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeChatPriPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430D4681F3986C200D44793 /* WeChatPriPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatPriPod.h; sourceTree = "<group>"; };
@@ -57,9 +45,6 @@
 		0430D46D1F3986C200D44793 /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptainHook.h; path = CaptainHook/CaptainHook.h; sourceTree = "<group>"; };
 		0430D46F1F3986C200D44793 /* WeChatPriPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatPriPod.m; sourceTree = "<group>"; };
 		0430D4711F3986C200D44793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0430D4761F3986C200D44793 /* WeChatPriPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatPriPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0430D47B1F3986C200D44793 /* WeChatPriPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatPriPodTests.m; sourceTree = "<group>"; };
-		0430D47D1F3986C200D44793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0430D4871F39870E00D44793 /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
 		0430D4881F39870E00D44793 /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
 		0430D4891F39870E00D44793 /* WBMultiSelectGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMultiSelectGroupsViewController.h; sourceTree = "<group>"; };
@@ -95,14 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0430D4731F3986C200D44793 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0430D4771F3986C200D44793 /* WeChatPriPod.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				0430D4671F3986C200D44793 /* WeChatPriPod */,
-				0430D47A1F3986C200D44793 /* WeChatPriPodTests */,
 				0430D4661F3986C200D44793 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				0430D4651F3986C200D44793 /* WeChatPriPod.framework */,
-				0430D4761F3986C200D44793 /* WeChatPriPodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,15 +126,6 @@
 				0430D46D1F3986C200D44793 /* CaptainHook.h */,
 			);
 			name = CaptainHook;
-			sourceTree = "<group>";
-		};
-		0430D47A1F3986C200D44793 /* WeChatPriPodTests */ = {
-			isa = PBXGroup;
-			children = (
-				0430D47B1F3986C200D44793 /* WeChatPriPodTests.m */,
-				0430D47D1F3986C200D44793 /* Info.plist */,
-			);
-			path = WeChatPriPodTests;
 			sourceTree = "<group>";
 		};
 		0430D4861F39870E00D44793 /* RedEnvelop */ = {
@@ -233,24 +199,6 @@
 			productReference = 0430D4651F3986C200D44793 /* WeChatPriPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0430D4751F3986C200D44793 /* WeChatPriPodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0430D4831F3986C200D44793 /* Build configuration list for PBXNativeTarget "WeChatPriPodTests" */;
-			buildPhases = (
-				0430D4721F3986C200D44793 /* Sources */,
-				0430D4731F3986C200D44793 /* Frameworks */,
-				0430D4741F3986C200D44793 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0430D4791F3986C200D44793 /* PBXTargetDependency */,
-			);
-			name = WeChatPriPodTests;
-			productName = WeChatPriPodTests;
-			productReference = 0430D4761F3986C200D44793 /* WeChatPriPodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -261,11 +209,6 @@
 				ORGANIZATIONNAME = Lorwy;
 				TargetAttributes = {
 					0430D4641F3986C200D44793 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6RE55TZ3K4;
-						ProvisioningStyle = Automatic;
-					};
-					0430D4751F3986C200D44793 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6RE55TZ3K4;
 						ProvisioningStyle = Automatic;
@@ -285,7 +228,6 @@
 			projectRoot = "";
 			targets = (
 				0430D4641F3986C200D44793 /* WeChatPriPod */,
-				0430D4751F3986C200D44793 /* WeChatPriPodTests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,13 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0430D46B1F3986C200D44793 /* WeChatPriPod.podspec in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0430D4741F3986C200D44793 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,23 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0430D4721F3986C200D44793 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0430D47C1F3986C200D44793 /* WeChatPriPodTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0430D4791F3986C200D44793 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0430D4641F3986C200D44793 /* WeChatPriPod */;
-			targetProxy = 0430D4781F3986C200D44793 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0430D47E1F3986C200D44793 /* Debug */ = {
@@ -479,30 +398,6 @@
 			};
 			name = Release;
 		};
-		0430D4841F3986C200D44793 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 6RE55TZ3K4;
-				INFOPLIST_FILE = WeChatPriPodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lorwy.WeChatPriPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		0430D4851F3986C200D44793 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 6RE55TZ3K4;
-				INFOPLIST_FILE = WeChatPriPodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lorwy.WeChatPriPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -522,14 +417,7 @@
 				0430D4821F3986C200D44793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0430D4831F3986C200D44793 /* Build configuration list for PBXNativeTarget "WeChatPriPodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0430D4841F3986C200D44793 /* Debug */,
-				0430D4851F3986C200D44793 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
