@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "WeChatPriPod"                         #Pod的名字
-  spec.version          = "1.0.0"                                     #版本号
+  spec.version          = "1.0.1"                                     #版本号
   spec.summary          = "A example pod for MonkeyDev"
   spec.description      = <<-DESC                                     #Pod的描述
                         - 使用CaptainHook改写锅神的WeChatRedEnvelop，我鱼神的FishChat, 借助猴神的强力工具MonkeyDev开发
